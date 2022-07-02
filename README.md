@@ -1,13 +1,10 @@
-# fission powered blog app
+# plod
 
-[blog-demo.fission.app](https://blog-demo.fission.app/)
+trying things
 
-A React-based blogging engine powered by [Fission's Webnative SDK](https://github.com/fission-suite/webnative).
-
-This uses [wnfs](https://guide.fission.codes/developers/webnative/file-system-wnfs) to store a JSON file of blog posts, and also saves image blobs to wnfs. `wnfs` is an IPFS node hosted by fission.
+This uses [wnfs](https://guide.fission.codes/developers/webnative/file-system-wnfs)
 
 ## Development
-
 Fork or clone this repository and then do `npm install`.
 
 ### start a dev server
@@ -22,16 +19,4 @@ Build a deployable web app
 ```
 npm run build
 ```
-
-## notes
-
-----------------------------------------------------
-
-https://guide.fission.codes/accounts/account-signup
-
-When you create a Fission Account, it creates a username and email address in the Fission database
-
-> We also create a Fission Web Native File System (WNFS) attached to your account 
-
-That WNFS is where the data of this app is saved
 
